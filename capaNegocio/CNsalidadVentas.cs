@@ -16,7 +16,7 @@ namespace capaNegocio
 
 
         //validacion
-        public bool validarProd(CEsalidadVentas pSalidad)
+        public bool validarSalida(CEsalidadVentas pSalidad)
         {
             bool resultado = true;
 
@@ -40,27 +40,27 @@ namespace capaNegocio
 
         //Crud Producto
 
-        public void CN_crearEntrada(CEsalidadVentas pSalidad)
+        public void CN_crearSalidad(CEsalidadVentas pSalidad)
         {
-            SalidaD.Ins(pEntrada);
+            SalidaD.InsertarSalida(pSalidad);
 
         }
 
-        public DataTable CN_listarEntrada()
+        public DataTable CN_listarSalidad()
         {
-            return EntradaPD.ListarEntrada();
+            return SalidaD.ListarSalida();
         }
 
-        public void CN_ActualizarEntrada(CEentrada pEntrada)
+        public void CN_ActualizarSalidad(CEsalidadVentas pSalidad)
         {
 
-            EntradaPD.ActujalizarEntrada(pEntrada);
+            SalidaD.ActuzalizarSalida(pSalidad);
 
         }
 
-        public void CN_EliminarEntrada(int id)
+        public void CN_EliminarSalidad(int id)
         {
-            EntradaPD.EliminarEntrada(id);
+            SalidaD.EliminarSalida(id);
         }
     }
 }

@@ -58,9 +58,104 @@
             this.tboxCodigo = new System.Windows.Forms.TextBox();
             this.label5 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
+            this.panelEntrada = new System.Windows.Forms.Panel();
+            this.panelcrearEntrada = new System.Windows.Forms.Panel();
+            this.tboxfechaEntrada = new System.Windows.Forms.DateTimePicker();
+            this.label15 = new System.Windows.Forms.Label();
+            this.label14 = new System.Windows.Forms.Label();
+            this.label13 = new System.Windows.Forms.Label();
+            this.label12 = new System.Windows.Forms.Label();
+            this.btnEntradaEnviar = new System.Windows.Forms.Button();
+            this.tboxcandEntrada = new System.Windows.Forms.TextBox();
+            this.tboxcodeEntrada = new System.Windows.Forms.TextBox();
+            this.label11 = new System.Windows.Forms.Label();
+            this.label10 = new System.Windows.Forms.Label();
+            this.btnGestionStock = new System.Windows.Forms.Button();
+            this.dtGridEntrada = new System.Windows.Forms.DataGridView();
+            this.idEntrada = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.codigoPdE = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.cantidad = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.fecha = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataGridViewImageColumn1 = new System.Windows.Forms.DataGridViewImageColumn();
+            this.dataGridViewImageColumn2 = new System.Windows.Forms.DataGridViewImageColumn();
+            this.panelverSalidas = new System.Windows.Forms.Panel();
+            this.panelregSalida = new System.Windows.Forms.Panel();
+            this.panel1ReporteVista = new System.Windows.Forms.Panel();
+            this.label20 = new System.Windows.Forms.Label();
+            this.dtReportes = new System.Windows.Forms.DataGridView();
+            this.label21 = new System.Windows.Forms.Label();
+            this.label19 = new System.Windows.Forms.Label();
+            this.label18 = new System.Windows.Forms.Label();
+            this.label17 = new System.Windows.Forms.Label();
+            this.btnRegistroSalida = new System.Windows.Forms.Button();
+            this.tboxSalidaFecha = new System.Windows.Forms.DateTimePicker();
+            this.tboxSalidaCantidad = new System.Windows.Forms.TextBox();
+            this.tboxSalidaCode = new System.Windows.Forms.TextBox();
+            this.label16 = new System.Windows.Forms.Label();
+            this.btnSalidasGestion = new System.Windows.Forms.Button();
+            this.dtGridSalidas = new System.Windows.Forms.DataGridView();
+            this.idSalida = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.codigoPdS = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataGridViewTextBoxColumn1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataGridViewTextBoxColumn2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataGridViewImageColumn3 = new System.Windows.Forms.DataGridViewImageColumn();
+            this.dataGridViewImageColumn4 = new System.Windows.Forms.DataGridViewImageColumn();
+            this.panel1LoginADM = new System.Windows.Forms.Panel();
+            this.panelLoginGeneral = new System.Windows.Forms.Panel();
+            this.panelVERGeneral = new System.Windows.Forms.Panel();
+            this.btnGrealVentasRegistrar = new System.Windows.Forms.Button();
+            this.btnGrealrepVentas = new System.Windows.Forms.Button();
+            this.btnGrealProductos = new System.Windows.Forms.Button();
+            this.label31 = new System.Windows.Forms.Label();
+            this.label30 = new System.Windows.Forms.Label();
+            this.panelVerProductoGeneral = new System.Windows.Forms.Panel();
+            this.label32 = new System.Windows.Forms.Label();
+            this.dataGridVerProd = new System.Windows.Forms.DataGridView();
+            this.btnINGGeneral = new System.Windows.Forms.Button();
+            this.label26 = new System.Windows.Forms.Label();
+            this.label27 = new System.Windows.Forms.Label();
+            this.label28 = new System.Windows.Forms.Label();
+            this.tboxpassGenral = new System.Windows.Forms.TextBox();
+            this.tboxUsuarioGenral = new System.Windows.Forms.TextBox();
+            this.label29 = new System.Windows.Forms.Label();
+            this.BtnEntrarADMIN = new System.Windows.Forms.Button();
+            this.label25 = new System.Windows.Forms.Label();
+            this.label24 = new System.Windows.Forms.Label();
+            this.label23 = new System.Windows.Forms.Label();
+            this.textBoxClaveADM = new System.Windows.Forms.TextBox();
+            this.textBoxUusarioADM = new System.Windows.Forms.TextBox();
+            this.label22 = new System.Windows.Forms.Label();
+            this.panel1verventasgenral = new System.Windows.Forms.Panel();
+            this.label33 = new System.Windows.Forms.Label();
+            this.dataGridVentasGeneral = new System.Windows.Forms.DataGridView();
+            this.panelRegistrarVentasGenral = new System.Windows.Forms.Panel();
+            this.label34 = new System.Windows.Forms.Label();
+            this.tboxcodeGenral = new System.Windows.Forms.TextBox();
+            this.tboxCantiadadGenral = new System.Windows.Forms.TextBox();
+            this.btnRegistrar = new System.Windows.Forms.Button();
+            this.label35 = new System.Windows.Forms.Label();
+            this.label36 = new System.Windows.Forms.Label();
+            this.label37 = new System.Windows.Forms.Label();
+            this.tbofecha = new System.Windows.Forms.DateTimePicker();
             ((System.ComponentModel.ISupportInitialize)(this.dtGridProd)).BeginInit();
             this.panelProdList.SuspendLayout();
             this.panelCrearProducto.SuspendLayout();
+            this.panelEntrada.SuspendLayout();
+            this.panelcrearEntrada.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dtGridEntrada)).BeginInit();
+            this.panelverSalidas.SuspendLayout();
+            this.panelregSalida.SuspendLayout();
+            this.panel1ReporteVista.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dtReportes)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dtGridSalidas)).BeginInit();
+            this.panel1LoginADM.SuspendLayout();
+            this.panelLoginGeneral.SuspendLayout();
+            this.panelVERGeneral.SuspendLayout();
+            this.panelVerProductoGeneral.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridVerProd)).BeginInit();
+            this.panel1verventasgenral.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridVentasGeneral)).BeginInit();
+            this.panelRegistrarVentasGenral.SuspendLayout();
             this.SuspendLayout();
             // 
             // label1
@@ -414,11 +509,810 @@
             this.label4.TabIndex = 0;
             this.label4.Text = "Nuevos Productos ";
             // 
+            // panelEntrada
+            // 
+            this.panelEntrada.Controls.Add(this.panelcrearEntrada);
+            this.panelEntrada.Controls.Add(this.label10);
+            this.panelEntrada.Controls.Add(this.btnGestionStock);
+            this.panelEntrada.Controls.Add(this.dtGridEntrada);
+            this.panelEntrada.Location = new System.Drawing.Point(246, 95);
+            this.panelEntrada.Name = "panelEntrada";
+            this.panelEntrada.Size = new System.Drawing.Size(1039, 750);
+            this.panelEntrada.TabIndex = 11;
+            this.panelEntrada.Visible = false;
+            // 
+            // panelcrearEntrada
+            // 
+            this.panelcrearEntrada.Controls.Add(this.tboxfechaEntrada);
+            this.panelcrearEntrada.Controls.Add(this.label15);
+            this.panelcrearEntrada.Controls.Add(this.label14);
+            this.panelcrearEntrada.Controls.Add(this.label13);
+            this.panelcrearEntrada.Controls.Add(this.label12);
+            this.panelcrearEntrada.Controls.Add(this.btnEntradaEnviar);
+            this.panelcrearEntrada.Controls.Add(this.tboxcandEntrada);
+            this.panelcrearEntrada.Controls.Add(this.tboxcodeEntrada);
+            this.panelcrearEntrada.Controls.Add(this.label11);
+            this.panelcrearEntrada.Location = new System.Drawing.Point(3, 3);
+            this.panelcrearEntrada.Name = "panelcrearEntrada";
+            this.panelcrearEntrada.Size = new System.Drawing.Size(1036, 747);
+            this.panelcrearEntrada.TabIndex = 3;
+            this.panelcrearEntrada.Visible = false;
+            // 
+            // tboxfechaEntrada
+            // 
+            this.tboxfechaEntrada.Location = new System.Drawing.Point(494, 458);
+            this.tboxfechaEntrada.Name = "tboxfechaEntrada";
+            this.tboxfechaEntrada.Size = new System.Drawing.Size(223, 27);
+            this.tboxfechaEntrada.TabIndex = 10;
+            // 
+            // label15
+            // 
+            this.label15.AutoSize = true;
+            this.label15.Font = new System.Drawing.Font("Segoe UI", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label15.Location = new System.Drawing.Point(403, 199);
+            this.label15.Name = "label15";
+            this.label15.Size = new System.Drawing.Size(211, 30);
+            this.label15.TabIndex = 9;
+            this.label15.Text = "Ingresar nuvos stock";
+            // 
+            // label14
+            // 
+            this.label14.AutoSize = true;
+            this.label14.Location = new System.Drawing.Point(402, 463);
+            this.label14.Name = "label14";
+            this.label14.Size = new System.Drawing.Size(47, 20);
+            this.label14.TabIndex = 8;
+            this.label14.Text = "Fecha";
+            // 
+            // label13
+            // 
+            this.label13.AutoSize = true;
+            this.label13.Location = new System.Drawing.Point(380, 388);
+            this.label13.Name = "label13";
+            this.label13.Size = new System.Drawing.Size(69, 20);
+            this.label13.TabIndex = 7;
+            this.label13.Text = "Cantidad";
+            // 
+            // label12
+            // 
+            this.label12.AutoSize = true;
+            this.label12.Location = new System.Drawing.Point(327, 320);
+            this.label12.Name = "label12";
+            this.label12.Size = new System.Drawing.Size(122, 20);
+            this.label12.TabIndex = 6;
+            this.label12.Text = "Codigo Producto";
+            // 
+            // btnEntradaEnviar
+            // 
+            this.btnEntradaEnviar.BackColor = System.Drawing.Color.DeepSkyBlue;
+            this.btnEntradaEnviar.Font = new System.Drawing.Font("Segoe UI", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.btnEntradaEnviar.Location = new System.Drawing.Point(361, 583);
+            this.btnEntradaEnviar.Name = "btnEntradaEnviar";
+            this.btnEntradaEnviar.Size = new System.Drawing.Size(168, 43);
+            this.btnEntradaEnviar.TabIndex = 5;
+            this.btnEntradaEnviar.Text = "Enviar";
+            this.btnEntradaEnviar.UseVisualStyleBackColor = false;
+            this.btnEntradaEnviar.Click += new System.EventHandler(this.btnEntradaEnviar_Click);
+            // 
+            // tboxcandEntrada
+            // 
+            this.tboxcandEntrada.Location = new System.Drawing.Point(494, 388);
+            this.tboxcandEntrada.Name = "tboxcandEntrada";
+            this.tboxcandEntrada.Size = new System.Drawing.Size(223, 27);
+            this.tboxcandEntrada.TabIndex = 3;
+            // 
+            // tboxcodeEntrada
+            // 
+            this.tboxcodeEntrada.Location = new System.Drawing.Point(494, 320);
+            this.tboxcodeEntrada.Name = "tboxcodeEntrada";
+            this.tboxcodeEntrada.Size = new System.Drawing.Size(223, 27);
+            this.tboxcodeEntrada.TabIndex = 2;
+            // 
+            // label11
+            // 
+            this.label11.BackColor = System.Drawing.Color.LightCyan;
+            this.label11.Location = new System.Drawing.Point(286, 130);
+            this.label11.Name = "label11";
+            this.label11.Size = new System.Drawing.Size(456, 568);
+            this.label11.TabIndex = 0;
+            // 
+            // label10
+            // 
+            this.label10.AutoSize = true;
+            this.label10.Font = new System.Drawing.Font("Segoe UI", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label10.Location = new System.Drawing.Point(375, 94);
+            this.label10.Name = "label10";
+            this.label10.Size = new System.Drawing.Size(302, 32);
+            this.label10.TabIndex = 2;
+            this.label10.Text = "Listado de entradas a stock";
+            // 
+            // btnGestionStock
+            // 
+            this.btnGestionStock.BackColor = System.Drawing.Color.CornflowerBlue;
+            this.btnGestionStock.Font = new System.Drawing.Font("Segoe UI", 11F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.btnGestionStock.ForeColor = System.Drawing.Color.White;
+            this.btnGestionStock.Location = new System.Drawing.Point(79, 217);
+            this.btnGestionStock.Name = "btnGestionStock";
+            this.btnGestionStock.Size = new System.Drawing.Size(227, 45);
+            this.btnGestionStock.TabIndex = 1;
+            this.btnGestionStock.Text = "Gestionar Entradas";
+            this.btnGestionStock.UseVisualStyleBackColor = false;
+            this.btnGestionStock.Click += new System.EventHandler(this.btnGestionStock_Click);
+            // 
+            // dtGridEntrada
+            // 
+            this.dtGridEntrada.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dtGridEntrada.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.idEntrada,
+            this.codigoPdE,
+            this.cantidad,
+            this.fecha,
+            this.dataGridViewImageColumn1,
+            this.dataGridViewImageColumn2});
+            this.dtGridEntrada.Location = new System.Drawing.Point(79, 292);
+            this.dtGridEntrada.Name = "dtGridEntrada";
+            this.dtGridEntrada.RowHeadersWidth = 51;
+            this.dtGridEntrada.RowTemplate.Height = 29;
+            this.dtGridEntrada.Size = new System.Drawing.Size(883, 439);
+            this.dtGridEntrada.TabIndex = 0;
+            this.dtGridEntrada.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dtGridEntrada_CellContentClick);
+            // 
+            // idEntrada
+            // 
+            this.idEntrada.DataPropertyName = "idEntrada";
+            this.idEntrada.HeaderText = "Codigo-ID";
+            this.idEntrada.MinimumWidth = 6;
+            this.idEntrada.Name = "idEntrada";
+            this.idEntrada.Width = 125;
+            // 
+            // codigoPdE
+            // 
+            this.codigoPdE.DataPropertyName = "codigoPdE";
+            this.codigoPdE.HeaderText = "Codigo de Producto";
+            this.codigoPdE.MinimumWidth = 6;
+            this.codigoPdE.Name = "codigoPdE";
+            this.codigoPdE.Width = 125;
+            // 
+            // cantidad
+            // 
+            this.cantidad.DataPropertyName = "cantidad";
+            this.cantidad.HeaderText = "Cantidad Producto";
+            this.cantidad.MinimumWidth = 6;
+            this.cantidad.Name = "cantidad";
+            this.cantidad.Width = 125;
+            // 
+            // fecha
+            // 
+            this.fecha.DataPropertyName = "fecha";
+            this.fecha.HeaderText = "Fecha de Producto";
+            this.fecha.MinimumWidth = 6;
+            this.fecha.Name = "fecha";
+            this.fecha.Width = 125;
+            // 
+            // dataGridViewImageColumn1
+            // 
+            this.dataGridViewImageColumn1.DataPropertyName = "eliminar";
+            this.dataGridViewImageColumn1.HeaderText = "Eliminar";
+            this.dataGridViewImageColumn1.Image = global::GestionInventario.Properties.Resources.hombre;
+            this.dataGridViewImageColumn1.MinimumWidth = 6;
+            this.dataGridViewImageColumn1.Name = "dataGridViewImageColumn1";
+            this.dataGridViewImageColumn1.Width = 125;
+            // 
+            // dataGridViewImageColumn2
+            // 
+            this.dataGridViewImageColumn2.DataPropertyName = "editar";
+            this.dataGridViewImageColumn2.HeaderText = "Editar";
+            this.dataGridViewImageColumn2.Image = global::GestionInventario.Properties.Resources.usuario;
+            this.dataGridViewImageColumn2.MinimumWidth = 6;
+            this.dataGridViewImageColumn2.Name = "dataGridViewImageColumn2";
+            this.dataGridViewImageColumn2.Width = 125;
+            // 
+            // panelverSalidas
+            // 
+            this.panelverSalidas.Controls.Add(this.panelregSalida);
+            this.panelverSalidas.Controls.Add(this.btnSalidasGestion);
+            this.panelverSalidas.Controls.Add(this.dtGridSalidas);
+            this.panelverSalidas.Location = new System.Drawing.Point(246, 95);
+            this.panelverSalidas.Name = "panelverSalidas";
+            this.panelverSalidas.Size = new System.Drawing.Size(1074, 759);
+            this.panelverSalidas.TabIndex = 12;
+            this.panelverSalidas.Visible = false;
+            // 
+            // panelregSalida
+            // 
+            this.panelregSalida.Controls.Add(this.panel1ReporteVista);
+            this.panelregSalida.Controls.Add(this.label21);
+            this.panelregSalida.Controls.Add(this.label19);
+            this.panelregSalida.Controls.Add(this.label18);
+            this.panelregSalida.Controls.Add(this.label17);
+            this.panelregSalida.Controls.Add(this.btnRegistroSalida);
+            this.panelregSalida.Controls.Add(this.tboxSalidaFecha);
+            this.panelregSalida.Controls.Add(this.tboxSalidaCantidad);
+            this.panelregSalida.Controls.Add(this.tboxSalidaCode);
+            this.panelregSalida.Controls.Add(this.label16);
+            this.panelregSalida.Location = new System.Drawing.Point(35, 15);
+            this.panelregSalida.Name = "panelregSalida";
+            this.panelregSalida.Size = new System.Drawing.Size(967, 702);
+            this.panelregSalida.TabIndex = 2;
+            this.panelregSalida.Visible = false;
+            // 
+            // panel1ReporteVista
+            // 
+            this.panel1ReporteVista.Controls.Add(this.label20);
+            this.panel1ReporteVista.Controls.Add(this.dtReportes);
+            this.panel1ReporteVista.Location = new System.Drawing.Point(3, 13);
+            this.panel1ReporteVista.Name = "panel1ReporteVista";
+            this.panel1ReporteVista.Size = new System.Drawing.Size(961, 686);
+            this.panel1ReporteVista.TabIndex = 19;
+            // 
+            // label20
+            // 
+            this.label20.AutoSize = true;
+            this.label20.Font = new System.Drawing.Font("Segoe UI", 11F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.label20.Location = new System.Drawing.Point(367, 115);
+            this.label20.Name = "label20";
+            this.label20.Size = new System.Drawing.Size(175, 25);
+            this.label20.TabIndex = 1;
+            this.label20.Text = "Reporte de Ventas";
+            // 
+            // dtReportes
+            // 
+            this.dtReportes.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dtReportes.Location = new System.Drawing.Point(28, 244);
+            this.dtReportes.Name = "dtReportes";
+            this.dtReportes.RowHeadersWidth = 51;
+            this.dtReportes.RowTemplate.Height = 29;
+            this.dtReportes.Size = new System.Drawing.Size(896, 391);
+            this.dtReportes.TabIndex = 0;
+            this.dtReportes.Visible = false;
+            this.dtReportes.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dtReportes_CellContentClick);
+            // 
+            // label21
+            // 
+            this.label21.AutoSize = true;
+            this.label21.Font = new System.Drawing.Font("Segoe UI", 11F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.label21.Location = new System.Drawing.Point(396, 153);
+            this.label21.Name = "label21";
+            this.label21.Size = new System.Drawing.Size(154, 25);
+            this.label21.TabIndex = 18;
+            this.label21.Text = "Registrar ventas";
+            // 
+            // label19
+            // 
+            this.label19.AutoSize = true;
+            this.label19.Font = new System.Drawing.Font("Segoe UI", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label19.Location = new System.Drawing.Point(366, 393);
+            this.label19.Name = "label19";
+            this.label19.Size = new System.Drawing.Size(61, 25);
+            this.label19.TabIndex = 17;
+            this.label19.Text = "Fecha";
+            // 
+            // label18
+            // 
+            this.label18.AutoSize = true;
+            this.label18.Font = new System.Drawing.Font("Segoe UI", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label18.Location = new System.Drawing.Point(260, 322);
+            this.label18.Name = "label18";
+            this.label18.Size = new System.Drawing.Size(167, 25);
+            this.label18.TabIndex = 16;
+            this.label18.Text = "Cantidad Articulos";
+            // 
+            // label17
+            // 
+            this.label17.AutoSize = true;
+            this.label17.Font = new System.Drawing.Font("Segoe UI", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label17.Location = new System.Drawing.Point(283, 250);
+            this.label17.Name = "label17";
+            this.label17.Size = new System.Drawing.Size(144, 25);
+            this.label17.TabIndex = 15;
+            this.label17.Text = "Codigo Articulo";
+            // 
+            // btnRegistroSalida
+            // 
+            this.btnRegistroSalida.BackColor = System.Drawing.Color.DeepSkyBlue;
+            this.btnRegistroSalida.Font = new System.Drawing.Font("Segoe UI", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.btnRegistroSalida.Location = new System.Drawing.Point(317, 516);
+            this.btnRegistroSalida.Name = "btnRegistroSalida";
+            this.btnRegistroSalida.Size = new System.Drawing.Size(174, 75);
+            this.btnRegistroSalida.TabIndex = 14;
+            this.btnRegistroSalida.Text = "Enviar";
+            this.btnRegistroSalida.UseVisualStyleBackColor = false;
+            this.btnRegistroSalida.Click += new System.EventHandler(this.btnRegistroSalida_Click);
+            // 
+            // tboxSalidaFecha
+            // 
+            this.tboxSalidaFecha.Location = new System.Drawing.Point(461, 393);
+            this.tboxSalidaFecha.Name = "tboxSalidaFecha";
+            this.tboxSalidaFecha.Size = new System.Drawing.Size(267, 27);
+            this.tboxSalidaFecha.TabIndex = 13;
+            // 
+            // tboxSalidaCantidad
+            // 
+            this.tboxSalidaCantidad.Location = new System.Drawing.Point(461, 319);
+            this.tboxSalidaCantidad.Name = "tboxSalidaCantidad";
+            this.tboxSalidaCantidad.Size = new System.Drawing.Size(267, 27);
+            this.tboxSalidaCantidad.TabIndex = 12;
+            // 
+            // tboxSalidaCode
+            // 
+            this.tboxSalidaCode.Location = new System.Drawing.Point(461, 250);
+            this.tboxSalidaCode.Name = "tboxSalidaCode";
+            this.tboxSalidaCode.Size = new System.Drawing.Size(267, 27);
+            this.tboxSalidaCode.TabIndex = 11;
+            // 
+            // label16
+            // 
+            this.label16.BackColor = System.Drawing.Color.Gainsboro;
+            this.label16.Location = new System.Drawing.Point(218, 63);
+            this.label16.Name = "label16";
+            this.label16.Size = new System.Drawing.Size(530, 576);
+            this.label16.TabIndex = 10;
+            // 
+            // btnSalidasGestion
+            // 
+            this.btnSalidasGestion.BackColor = System.Drawing.Color.SteelBlue;
+            this.btnSalidasGestion.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.btnSalidasGestion.Location = new System.Drawing.Point(66, 231);
+            this.btnSalidasGestion.Name = "btnSalidasGestion";
+            this.btnSalidasGestion.Size = new System.Drawing.Size(154, 45);
+            this.btnSalidasGestion.TabIndex = 1;
+            this.btnSalidasGestion.Text = "Gestionar ventas";
+            this.btnSalidasGestion.UseVisualStyleBackColor = false;
+            this.btnSalidasGestion.Click += new System.EventHandler(this.btnSalidasGestion_Click_1);
+            // 
+            // dtGridSalidas
+            // 
+            this.dtGridSalidas.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dtGridSalidas.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.idSalida,
+            this.codigoPdS,
+            this.dataGridViewTextBoxColumn1,
+            this.dataGridViewTextBoxColumn2,
+            this.dataGridViewImageColumn3,
+            this.dataGridViewImageColumn4});
+            this.dtGridSalidas.Location = new System.Drawing.Point(66, 295);
+            this.dtGridSalidas.Name = "dtGridSalidas";
+            this.dtGridSalidas.RowHeadersWidth = 51;
+            this.dtGridSalidas.RowTemplate.Height = 29;
+            this.dtGridSalidas.Size = new System.Drawing.Size(911, 412);
+            this.dtGridSalidas.TabIndex = 0;
+            this.dtGridSalidas.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dtGridSalidas_CellContentClick);
+            // 
+            // idSalida
+            // 
+            this.idSalida.DataPropertyName = "idEntrada";
+            this.idSalida.HeaderText = "Codifo-ID";
+            this.idSalida.MinimumWidth = 6;
+            this.idSalida.Name = "idSalida";
+            this.idSalida.Width = 125;
+            // 
+            // codigoPdS
+            // 
+            this.codigoPdS.DataPropertyName = "codigoPdS";
+            this.codigoPdS.HeaderText = "Codigo Articulo";
+            this.codigoPdS.MinimumWidth = 6;
+            this.codigoPdS.Name = "codigoPdS";
+            this.codigoPdS.Width = 125;
+            // 
+            // dataGridViewTextBoxColumn1
+            // 
+            this.dataGridViewTextBoxColumn1.DataPropertyName = "cantidad";
+            this.dataGridViewTextBoxColumn1.HeaderText = "Cantidad en Venta";
+            this.dataGridViewTextBoxColumn1.MinimumWidth = 6;
+            this.dataGridViewTextBoxColumn1.Name = "dataGridViewTextBoxColumn1";
+            this.dataGridViewTextBoxColumn1.Width = 125;
+            // 
+            // dataGridViewTextBoxColumn2
+            // 
+            this.dataGridViewTextBoxColumn2.DataPropertyName = "fecha";
+            this.dataGridViewTextBoxColumn2.HeaderText = "Fecha";
+            this.dataGridViewTextBoxColumn2.MinimumWidth = 6;
+            this.dataGridViewTextBoxColumn2.Name = "dataGridViewTextBoxColumn2";
+            this.dataGridViewTextBoxColumn2.Width = 125;
+            // 
+            // dataGridViewImageColumn3
+            // 
+            this.dataGridViewImageColumn3.HeaderText = "Eliminar";
+            this.dataGridViewImageColumn3.Image = global::GestionInventario.Properties.Resources.hombre;
+            this.dataGridViewImageColumn3.MinimumWidth = 6;
+            this.dataGridViewImageColumn3.Name = "dataGridViewImageColumn3";
+            this.dataGridViewImageColumn3.Width = 125;
+            // 
+            // dataGridViewImageColumn4
+            // 
+            this.dataGridViewImageColumn4.HeaderText = "Editar";
+            this.dataGridViewImageColumn4.Image = global::GestionInventario.Properties.Resources.usuario;
+            this.dataGridViewImageColumn4.MinimumWidth = 6;
+            this.dataGridViewImageColumn4.Name = "dataGridViewImageColumn4";
+            this.dataGridViewImageColumn4.Width = 125;
+            // 
+            // panel1LoginADM
+            // 
+            this.panel1LoginADM.BackColor = System.Drawing.Color.MidnightBlue;
+            this.panel1LoginADM.Controls.Add(this.panelLoginGeneral);
+            this.panel1LoginADM.Controls.Add(this.BtnEntrarADMIN);
+            this.panel1LoginADM.Controls.Add(this.label25);
+            this.panel1LoginADM.Controls.Add(this.label24);
+            this.panel1LoginADM.Controls.Add(this.label23);
+            this.panel1LoginADM.Controls.Add(this.textBoxClaveADM);
+            this.panel1LoginADM.Controls.Add(this.textBoxUusarioADM);
+            this.panel1LoginADM.Controls.Add(this.label22);
+            this.panel1LoginADM.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.panel1LoginADM.Location = new System.Drawing.Point(0, 0);
+            this.panel1LoginADM.Name = "panel1LoginADM";
+            this.panel1LoginADM.Size = new System.Drawing.Size(1283, 842);
+            this.panel1LoginADM.TabIndex = 2;
+            this.panel1LoginADM.Visible = false;
+            // 
+            // panelLoginGeneral
+            // 
+            this.panelLoginGeneral.Controls.Add(this.panelVERGeneral);
+            this.panelLoginGeneral.Controls.Add(this.btnINGGeneral);
+            this.panelLoginGeneral.Controls.Add(this.label26);
+            this.panelLoginGeneral.Controls.Add(this.label27);
+            this.panelLoginGeneral.Controls.Add(this.label28);
+            this.panelLoginGeneral.Controls.Add(this.tboxpassGenral);
+            this.panelLoginGeneral.Controls.Add(this.tboxUsuarioGenral);
+            this.panelLoginGeneral.Controls.Add(this.label29);
+            this.panelLoginGeneral.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.panelLoginGeneral.Location = new System.Drawing.Point(0, 0);
+            this.panelLoginGeneral.Name = "panelLoginGeneral";
+            this.panelLoginGeneral.Size = new System.Drawing.Size(1283, 842);
+            this.panelLoginGeneral.TabIndex = 7;
+            this.panelLoginGeneral.Visible = false;
+            // 
+            // panelVERGeneral
+            // 
+            this.panelVERGeneral.Controls.Add(this.btnGrealVentasRegistrar);
+            this.panelVERGeneral.Controls.Add(this.btnGrealrepVentas);
+            this.panelVERGeneral.Controls.Add(this.btnGrealProductos);
+            this.panelVERGeneral.Controls.Add(this.label31);
+            this.panelVERGeneral.Controls.Add(this.label30);
+            this.panelVERGeneral.Controls.Add(this.panelVerProductoGeneral);
+            this.panelVERGeneral.Location = new System.Drawing.Point(114, 173);
+            this.panelVERGeneral.Name = "panelVERGeneral";
+            this.panelVERGeneral.Size = new System.Drawing.Size(1283, 842);
+            this.panelVERGeneral.TabIndex = 14;
+            this.panelVERGeneral.Visible = false;
+            // 
+            // btnGrealVentasRegistrar
+            // 
+            this.btnGrealVentasRegistrar.Location = new System.Drawing.Point(74, 609);
+            this.btnGrealVentasRegistrar.Name = "btnGrealVentasRegistrar";
+            this.btnGrealVentasRegistrar.Size = new System.Drawing.Size(166, 92);
+            this.btnGrealVentasRegistrar.TabIndex = 5;
+            this.btnGrealVentasRegistrar.Text = "Ventas Registrada";
+            this.btnGrealVentasRegistrar.UseVisualStyleBackColor = true;
+            this.btnGrealVentasRegistrar.Click += new System.EventHandler(this.btnGrealVentasRegistrar_Click);
+            // 
+            // btnGrealrepVentas
+            // 
+            this.btnGrealrepVentas.Location = new System.Drawing.Point(74, 494);
+            this.btnGrealrepVentas.Name = "btnGrealrepVentas";
+            this.btnGrealrepVentas.Size = new System.Drawing.Size(166, 92);
+            this.btnGrealrepVentas.TabIndex = 4;
+            this.btnGrealrepVentas.Text = "ver reporte ventas";
+            this.btnGrealrepVentas.UseVisualStyleBackColor = true;
+            this.btnGrealrepVentas.Click += new System.EventHandler(this.btnGrealrepVentas_Click);
+            // 
+            // btnGrealProductos
+            // 
+            this.btnGrealProductos.Location = new System.Drawing.Point(74, 382);
+            this.btnGrealProductos.Name = "btnGrealProductos";
+            this.btnGrealProductos.Size = new System.Drawing.Size(166, 92);
+            this.btnGrealProductos.TabIndex = 3;
+            this.btnGrealProductos.Text = "Ver Productos";
+            this.btnGrealProductos.UseVisualStyleBackColor = true;
+            this.btnGrealProductos.Click += new System.EventHandler(this.btnGrealProductos_Click);
+            // 
+            // label31
+            // 
+            this.label31.Image = global::GestionInventario.Properties.Resources.Menu_operarios;
+            this.label31.Location = new System.Drawing.Point(12, 0);
+            this.label31.Name = "label31";
+            this.label31.Size = new System.Drawing.Size(316, 842);
+            this.label31.TabIndex = 2;
+            // 
+            // label30
+            // 
+            this.label30.BackColor = System.Drawing.Color.AliceBlue;
+            this.label30.Location = new System.Drawing.Point(282, -4);
+            this.label30.Name = "label30";
+            this.label30.Size = new System.Drawing.Size(1016, 151);
+            this.label30.TabIndex = 7;
+            // 
+            // panelVerProductoGeneral
+            // 
+            this.panelVerProductoGeneral.Controls.Add(this.panel1verventasgenral);
+            this.panelVerProductoGeneral.Controls.Add(this.label32);
+            this.panelVerProductoGeneral.Controls.Add(this.dataGridVerProd);
+            this.panelVerProductoGeneral.Location = new System.Drawing.Point(343, 163);
+            this.panelVerProductoGeneral.Name = "panelVerProductoGeneral";
+            this.panelVerProductoGeneral.Size = new System.Drawing.Size(942, 676);
+            this.panelVerProductoGeneral.TabIndex = 6;
+            this.panelVerProductoGeneral.Visible = false;
+            this.panelVerProductoGeneral.Paint += new System.Windows.Forms.PaintEventHandler(this.panelVerProductoGeneral_Paint);
+            // 
+            // label32
+            // 
+            this.label32.AutoSize = true;
+            this.label32.Font = new System.Drawing.Font("Segoe UI", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label32.ForeColor = System.Drawing.SystemColors.Control;
+            this.label32.Location = new System.Drawing.Point(327, 54);
+            this.label32.Name = "label32";
+            this.label32.Size = new System.Drawing.Size(311, 37);
+            this.label32.TabIndex = 3;
+            this.label32.Text = "Ver Listado de Productos";
+            // 
+            // dataGridVerProd
+            // 
+            this.dataGridVerProd.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataGridVerProd.Location = new System.Drawing.Point(100, 135);
+            this.dataGridVerProd.Name = "dataGridVerProd";
+            this.dataGridVerProd.RowHeadersWidth = 51;
+            this.dataGridVerProd.RowTemplate.Height = 29;
+            this.dataGridVerProd.Size = new System.Drawing.Size(769, 487);
+            this.dataGridVerProd.TabIndex = 2;
+            // 
+            // btnINGGeneral
+            // 
+            this.btnINGGeneral.BackColor = System.Drawing.Color.CornflowerBlue;
+            this.btnINGGeneral.Font = new System.Drawing.Font("Segoe UI", 11F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.btnINGGeneral.Location = new System.Drawing.Point(502, 494);
+            this.btnINGGeneral.Name = "btnINGGeneral";
+            this.btnINGGeneral.Size = new System.Drawing.Size(247, 43);
+            this.btnINGGeneral.TabIndex = 13;
+            this.btnINGGeneral.Text = "Ingresar";
+            this.btnINGGeneral.UseVisualStyleBackColor = false;
+            this.btnINGGeneral.Click += new System.EventHandler(this.btnINGGeneral_Click);
+            // 
+            // label26
+            // 
+            this.label26.AutoSize = true;
+            this.label26.BackColor = System.Drawing.Color.DeepSkyBlue;
+            this.label26.Font = new System.Drawing.Font("Segoe UI", 11F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.label26.Location = new System.Drawing.Point(502, 408);
+            this.label26.Name = "label26";
+            this.label26.Size = new System.Drawing.Size(59, 25);
+            this.label26.TabIndex = 12;
+            this.label26.Text = "Clave";
+            // 
+            // label27
+            // 
+            this.label27.AutoSize = true;
+            this.label27.BackColor = System.Drawing.Color.DeepSkyBlue;
+            this.label27.Font = new System.Drawing.Font("Segoe UI", 11F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.label27.Location = new System.Drawing.Point(500, 329);
+            this.label27.Name = "label27";
+            this.label27.Size = new System.Drawing.Size(81, 25);
+            this.label27.TabIndex = 11;
+            this.label27.Text = "Usuario";
+            // 
+            // label28
+            // 
+            this.label28.AutoSize = true;
+            this.label28.BackColor = System.Drawing.Color.DeepSkyBlue;
+            this.label28.Font = new System.Drawing.Font("Segoe UI", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label28.Location = new System.Drawing.Point(465, 262);
+            this.label28.Name = "label28";
+            this.label28.Size = new System.Drawing.Size(361, 35);
+            this.label28.TabIndex = 10;
+            this.label28.Text = "Ingresar como Usuario General";
+            // 
+            // tboxpassGenral
+            // 
+            this.tboxpassGenral.Location = new System.Drawing.Point(502, 437);
+            this.tboxpassGenral.Name = "tboxpassGenral";
+            this.tboxpassGenral.Size = new System.Drawing.Size(247, 27);
+            this.tboxpassGenral.TabIndex = 9;
+            // 
+            // tboxUsuarioGenral
+            // 
+            this.tboxUsuarioGenral.Location = new System.Drawing.Point(502, 357);
+            this.tboxUsuarioGenral.Name = "tboxUsuarioGenral";
+            this.tboxUsuarioGenral.Size = new System.Drawing.Size(247, 27);
+            this.tboxUsuarioGenral.TabIndex = 8;
+            // 
+            // label29
+            // 
+            this.label29.BackColor = System.Drawing.Color.DeepSkyBlue;
+            this.label29.Location = new System.Drawing.Point(343, 172);
+            this.label29.Name = "label29";
+            this.label29.Size = new System.Drawing.Size(597, 498);
+            this.label29.TabIndex = 7;
+            // 
+            // BtnEntrarADMIN
+            // 
+            this.BtnEntrarADMIN.BackColor = System.Drawing.Color.CornflowerBlue;
+            this.BtnEntrarADMIN.Font = new System.Drawing.Font("Segoe UI", 11F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.BtnEntrarADMIN.Location = new System.Drawing.Point(472, 491);
+            this.BtnEntrarADMIN.Name = "BtnEntrarADMIN";
+            this.BtnEntrarADMIN.Size = new System.Drawing.Size(247, 43);
+            this.BtnEntrarADMIN.TabIndex = 6;
+            this.BtnEntrarADMIN.Text = "Ingresar";
+            this.BtnEntrarADMIN.UseVisualStyleBackColor = false;
+            this.BtnEntrarADMIN.Click += new System.EventHandler(this.BtnEntrarADMIN_Click);
+            // 
+            // label25
+            // 
+            this.label25.AutoSize = true;
+            this.label25.BackColor = System.Drawing.Color.DeepSkyBlue;
+            this.label25.Font = new System.Drawing.Font("Segoe UI", 11F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.label25.Location = new System.Drawing.Point(472, 405);
+            this.label25.Name = "label25";
+            this.label25.Size = new System.Drawing.Size(59, 25);
+            this.label25.TabIndex = 5;
+            this.label25.Text = "Clave";
+            // 
+            // label24
+            // 
+            this.label24.AutoSize = true;
+            this.label24.BackColor = System.Drawing.Color.DeepSkyBlue;
+            this.label24.Font = new System.Drawing.Font("Segoe UI", 11F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.label24.Location = new System.Drawing.Point(470, 326);
+            this.label24.Name = "label24";
+            this.label24.Size = new System.Drawing.Size(81, 25);
+            this.label24.TabIndex = 4;
+            this.label24.Text = "Usuario";
+            // 
+            // label23
+            // 
+            this.label23.AutoSize = true;
+            this.label23.BackColor = System.Drawing.Color.DeepSkyBlue;
+            this.label23.Font = new System.Drawing.Font("Segoe UI", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label23.Location = new System.Drawing.Point(443, 258);
+            this.label23.Name = "label23";
+            this.label23.Size = new System.Drawing.Size(343, 35);
+            this.label23.TabIndex = 3;
+            this.label23.Text = "Ingresar como Administrador";
+            // 
+            // textBoxClaveADM
+            // 
+            this.textBoxClaveADM.Location = new System.Drawing.Point(472, 434);
+            this.textBoxClaveADM.Name = "textBoxClaveADM";
+            this.textBoxClaveADM.Size = new System.Drawing.Size(247, 27);
+            this.textBoxClaveADM.TabIndex = 2;
+            // 
+            // textBoxUusarioADM
+            // 
+            this.textBoxUusarioADM.Location = new System.Drawing.Point(472, 354);
+            this.textBoxUusarioADM.Name = "textBoxUusarioADM";
+            this.textBoxUusarioADM.Size = new System.Drawing.Size(247, 27);
+            this.textBoxUusarioADM.TabIndex = 1;
+            // 
+            // label22
+            // 
+            this.label22.BackColor = System.Drawing.Color.DeepSkyBlue;
+            this.label22.Location = new System.Drawing.Point(313, 169);
+            this.label22.Name = "label22";
+            this.label22.Size = new System.Drawing.Size(597, 498);
+            this.label22.TabIndex = 0;
+            // 
+            // panel1verventasgenral
+            // 
+            this.panel1verventasgenral.Controls.Add(this.panelRegistrarVentasGenral);
+            this.panel1verventasgenral.Controls.Add(this.label33);
+            this.panel1verventasgenral.Controls.Add(this.dataGridVentasGeneral);
+            this.panel1verventasgenral.Location = new System.Drawing.Point(3, 9);
+            this.panel1verventasgenral.Name = "panel1verventasgenral";
+            this.panel1verventasgenral.Size = new System.Drawing.Size(934, 658);
+            this.panel1verventasgenral.TabIndex = 4;
+            this.panel1verventasgenral.Visible = false;
+            // 
+            // label33
+            // 
+            this.label33.AutoSize = true;
+            this.label33.Font = new System.Drawing.Font("Segoe UI", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label33.ForeColor = System.Drawing.SystemColors.Control;
+            this.label33.Location = new System.Drawing.Point(307, 45);
+            this.label33.Name = "label33";
+            this.label33.Size = new System.Drawing.Size(270, 37);
+            this.label33.TabIndex = 5;
+            this.label33.Text = "Ver Listado de Ventas";
+            // 
+            // dataGridVentasGeneral
+            // 
+            this.dataGridVentasGeneral.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataGridVentasGeneral.Location = new System.Drawing.Point(80, 126);
+            this.dataGridVentasGeneral.Name = "dataGridVentasGeneral";
+            this.dataGridVentasGeneral.RowHeadersWidth = 51;
+            this.dataGridVentasGeneral.RowTemplate.Height = 29;
+            this.dataGridVentasGeneral.Size = new System.Drawing.Size(769, 487);
+            this.dataGridVentasGeneral.TabIndex = 4;
+            // 
+            // panelRegistrarVentasGenral
+            // 
+            this.panelRegistrarVentasGenral.Controls.Add(this.tbofecha);
+            this.panelRegistrarVentasGenral.Controls.Add(this.label37);
+            this.panelRegistrarVentasGenral.Controls.Add(this.label36);
+            this.panelRegistrarVentasGenral.Controls.Add(this.label35);
+            this.panelRegistrarVentasGenral.Controls.Add(this.btnRegistrar);
+            this.panelRegistrarVentasGenral.Controls.Add(this.tboxCantiadadGenral);
+            this.panelRegistrarVentasGenral.Controls.Add(this.tboxcodeGenral);
+            this.panelRegistrarVentasGenral.Controls.Add(this.label34);
+            this.panelRegistrarVentasGenral.Location = new System.Drawing.Point(3, 0);
+            this.panelRegistrarVentasGenral.Name = "panelRegistrarVentasGenral";
+            this.panelRegistrarVentasGenral.Size = new System.Drawing.Size(922, 664);
+            this.panelRegistrarVentasGenral.TabIndex = 6;
+            this.panelRegistrarVentasGenral.Visible = false;
+            // 
+            // label34
+            // 
+            this.label34.BackColor = System.Drawing.Color.Thistle;
+            this.label34.Location = new System.Drawing.Point(211, 79);
+            this.label34.Name = "label34";
+            this.label34.Size = new System.Drawing.Size(529, 552);
+            this.label34.TabIndex = 0;
+            // 
+            // tboxcodeGenral
+            // 
+            this.tboxcodeGenral.Location = new System.Drawing.Point(423, 261);
+            this.tboxcodeGenral.Name = "tboxcodeGenral";
+            this.tboxcodeGenral.Size = new System.Drawing.Size(283, 27);
+            this.tboxcodeGenral.TabIndex = 1;
+            // 
+            // tboxCantiadadGenral
+            // 
+            this.tboxCantiadadGenral.Location = new System.Drawing.Point(423, 324);
+            this.tboxCantiadadGenral.Name = "tboxCantiadadGenral";
+            this.tboxCantiadadGenral.Size = new System.Drawing.Size(283, 27);
+            this.tboxCantiadadGenral.TabIndex = 2;
+            // 
+            // btnRegistrar
+            // 
+            this.btnRegistrar.Location = new System.Drawing.Point(296, 528);
+            this.btnRegistrar.Name = "btnRegistrar";
+            this.btnRegistrar.Size = new System.Drawing.Size(166, 49);
+            this.btnRegistrar.TabIndex = 8;
+            this.btnRegistrar.Text = "Registrar";
+            this.btnRegistrar.UseVisualStyleBackColor = true;
+            this.btnRegistrar.Click += new System.EventHandler(this.btnRegistrar_Click);
+            // 
+            // label35
+            // 
+            this.label35.AutoSize = true;
+            this.label35.BackColor = System.Drawing.Color.LightBlue;
+            this.label35.Location = new System.Drawing.Point(264, 265);
+            this.label35.Name = "label35";
+            this.label35.Size = new System.Drawing.Size(122, 20);
+            this.label35.TabIndex = 9;
+            this.label35.Text = "Codigo Producto";
+            // 
+            // label36
+            // 
+            this.label36.AutoSize = true;
+            this.label36.BackColor = System.Drawing.Color.LightBlue;
+            this.label36.Location = new System.Drawing.Point(264, 324);
+            this.label36.Name = "label36";
+            this.label36.Size = new System.Drawing.Size(152, 20);
+            this.label36.TabIndex = 10;
+            this.label36.Text = "Cantidad de Articulos";
+            // 
+            // label37
+            // 
+            this.label37.AutoSize = true;
+            this.label37.BackColor = System.Drawing.Color.LightBlue;
+            this.label37.Location = new System.Drawing.Point(264, 391);
+            this.label37.Name = "label37";
+            this.label37.Size = new System.Drawing.Size(47, 20);
+            this.label37.TabIndex = 11;
+            this.label37.Text = "Fecha";
+            // 
+            // tbofecha
+            // 
+            this.tbofecha.Location = new System.Drawing.Point(423, 384);
+            this.tbofecha.Name = "tbofecha";
+            this.tbofecha.Size = new System.Drawing.Size(283, 27);
+            this.tbofecha.TabIndex = 12;
+            // 
             // pantalla1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1283, 842);
+            this.Controls.Add(this.panel1LoginADM);
+            this.Controls.Add(this.panelverSalidas);
+            this.Controls.Add(this.panelEntrada);
             this.Controls.Add(this.panelCrearProducto);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.btnReporPanel);
@@ -439,6 +1333,31 @@
             this.panelProdList.ResumeLayout(false);
             this.panelCrearProducto.ResumeLayout(false);
             this.panelCrearProducto.PerformLayout();
+            this.panelEntrada.ResumeLayout(false);
+            this.panelEntrada.PerformLayout();
+            this.panelcrearEntrada.ResumeLayout(false);
+            this.panelcrearEntrada.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dtGridEntrada)).EndInit();
+            this.panelverSalidas.ResumeLayout(false);
+            this.panelregSalida.ResumeLayout(false);
+            this.panelregSalida.PerformLayout();
+            this.panel1ReporteVista.ResumeLayout(false);
+            this.panel1ReporteVista.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dtReportes)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dtGridSalidas)).EndInit();
+            this.panel1LoginADM.ResumeLayout(false);
+            this.panel1LoginADM.PerformLayout();
+            this.panelLoginGeneral.ResumeLayout(false);
+            this.panelLoginGeneral.PerformLayout();
+            this.panelVERGeneral.ResumeLayout(false);
+            this.panelVerProductoGeneral.ResumeLayout(false);
+            this.panelVerProductoGeneral.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridVerProd)).EndInit();
+            this.panel1verventasgenral.ResumeLayout(false);
+            this.panel1verventasgenral.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridVentasGeneral)).EndInit();
+            this.panelRegistrarVentasGenral.ResumeLayout(false);
+            this.panelRegistrarVentasGenral.PerformLayout();
             this.ResumeLayout(false);
 
         }
@@ -474,5 +1393,84 @@
         private Label label5;
         private Label label4;
         private Button btnEnviar;
+        private Panel panelEntrada;
+        private Label label10;
+        private Button btnGestionStock;
+        private DataGridView dtGridEntrada;
+        private DataGridViewTextBoxColumn idEntrada;
+        private DataGridViewTextBoxColumn codigoPdE;
+        private DataGridViewTextBoxColumn cantidad;
+        private DataGridViewTextBoxColumn fecha;
+        private DataGridViewImageColumn dataGridViewImageColumn1;
+        private DataGridViewImageColumn dataGridViewImageColumn2;
+        private Panel panelcrearEntrada;
+        private Label label15;
+        private Label label14;
+        private Label label13;
+        private Label label12;
+        private Button btnEntradaEnviar;
+        private TextBox tboxcandEntrada;
+        private TextBox tboxcodeEntrada;
+        private Label label11;
+        private DateTimePicker tboxfechaEntrada;
+        private Panel panelverSalidas;
+        private Button btnSalidasGestion;
+        private DataGridView dtGridSalidas;
+        private DataGridViewTextBoxColumn idSalida;
+        private DataGridViewTextBoxColumn codigoPdS;
+        private DataGridViewTextBoxColumn dataGridViewTextBoxColumn1;
+        private DataGridViewTextBoxColumn dataGridViewTextBoxColumn2;
+        private DataGridViewImageColumn dataGridViewImageColumn3;
+        private DataGridViewImageColumn dataGridViewImageColumn4;
+        private Panel panelregSalida;
+        private Label label21;
+        private Label label19;
+        private Label label18;
+        private Label label17;
+        private Button btnRegistroSalida;
+        private DateTimePicker tboxSalidaFecha;
+        private TextBox tboxSalidaCantidad;
+        private TextBox tboxSalidaCode;
+        private Label label16;
+        private Panel panel1ReporteVista;
+        private Label label20;
+        private DataGridView dtReportes;
+        private Panel panel1LoginADM;
+        private Panel panelLoginGeneral;
+        private Button BtnEntrarADMIN;
+        private Label label25;
+        private Label label24;
+        private Label label23;
+        private TextBox textBoxClaveADM;
+        private TextBox textBoxUusarioADM;
+        private Label label22;
+        private Button btnINGGeneral;
+        private Label label26;
+        private Label label27;
+        private Label label28;
+        private TextBox tboxpassGenral;
+        private TextBox tboxUsuarioGenral;
+        private Label label29;
+        private Panel panelVERGeneral;
+        private Button btnGrealrepVentas;
+        private Button btnGrealProductos;
+        private Label label31;
+        private Button btnGrealVentasRegistrar;
+        private Label label30;
+        private Panel panelVerProductoGeneral;
+        private Label label32;
+        private DataGridView dataGridVerProd;
+        private Panel panel1verventasgenral;
+        private Panel panelRegistrarVentasGenral;
+        private DateTimePicker tbofecha;
+        private Label label37;
+        private Label label36;
+        private Label label35;
+        private Button btnRegistrar;
+        private TextBox tboxCantiadadGenral;
+        private TextBox tboxcodeGenral;
+        private Label label34;
+        private Label label33;
+        private DataGridView dataGridVentasGeneral;
     }
 }
