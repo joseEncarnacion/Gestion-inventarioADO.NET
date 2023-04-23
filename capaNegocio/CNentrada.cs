@@ -16,7 +16,7 @@ namespace capaNegocio
 
 
         //validacion
-        public bool validarProd(CEentrada pEntrada)
+        public bool validarEntrada(CEentrada pEntrada)
         {
             bool resultado = true;
 

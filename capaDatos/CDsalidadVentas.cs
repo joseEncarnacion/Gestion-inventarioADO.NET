@@ -18,7 +18,7 @@ namespace capaDatos
            new SqlConnection(ConfigurationManager.ConnectionStrings["appConnex"].ConnectionString);
 
 
-        public void InsertarEntrada(CEsalidadVentas salidaPD)
+        public void InsertarSalida(CEsalidadVentas salidaPD)
         {
             try
             {
@@ -46,7 +46,7 @@ namespace capaDatos
 
         // lISTAR PRODUCTOS
 
-        public DataTable ListarEntrada()
+        public DataTable ListarSalida()
         {
             SqlCommand cmd = new SqlCommand("sp_listarSalida", cor);
             cmd.CommandType = CommandType.StoredProcedure;
@@ -62,7 +62,7 @@ namespace capaDatos
 
         //Editar productos
 
-        public void ActujalizarEntrada(CEsalidadVentas salidaPD)
+        public void ActuzalizarSalida(CEsalidadVentas salidaPD)
         {
 
             try
@@ -95,7 +95,7 @@ namespace capaDatos
 
         //Eliminar Producto
 
-        public void EliminarEntrada(int id)
+        public void EliminarSalida(int id)
         {
 
             try
