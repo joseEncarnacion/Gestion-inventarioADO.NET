@@ -1,0 +1,15 @@
+C:\Users\Usuario\Pictures\PROYECTOS\BackEnd\proyectoFinales\Gestion-InventarioADO.NET\capaDatos\bin\Debug\net6.0\capaDatos.deps.json
+C:\Users\Usuario\Pictures\PROYECTOS\BackEnd\proyectoFinales\Gestion-InventarioADO.NET\capaDatos\bin\Debug\net6.0\capaDatos.dll
+C:\Users\Usuario\Pictures\PROYECTOS\BackEnd\proyectoFinales\Gestion-InventarioADO.NET\capaDatos\bin\Debug\net6.0\capaDatos.pdb
+C:\Users\Usuario\Pictures\PROYECTOS\BackEnd\proyectoFinales\Gestion-InventarioADO.NET\capaDatos\bin\Debug\net6.0\capaEntidad.dll
+C:\Users\Usuario\Pictures\PROYECTOS\BackEnd\proyectoFinales\Gestion-InventarioADO.NET\capaDatos\bin\Debug\net6.0\capaEntidad.pdb
+C:\Users\Usuario\Pictures\PROYECTOS\BackEnd\proyectoFinales\Gestion-InventarioADO.NET\capaDatos\obj\Debug\net6.0\capaDatos.csproj.AssemblyReference.cache
+C:\Users\Usuario\Pictures\PROYECTOS\BackEnd\proyectoFinales\Gestion-InventarioADO.NET\capaDatos\obj\Debug\net6.0\capaDatos.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Usuario\Pictures\PROYECTOS\BackEnd\proyectoFinales\Gestion-InventarioADO.NET\capaDatos\obj\Debug\net6.0\capaDatos.AssemblyInfoInputs.cache
+C:\Users\Usuario\Pictures\PROYECTOS\BackEnd\proyectoFinales\Gestion-InventarioADO.NET\capaDatos\obj\Debug\net6.0\capaDatos.AssemblyInfo.cs
+C:\Users\Usuario\Pictures\PROYECTOS\BackEnd\proyectoFinales\Gestion-InventarioADO.NET\capaDatos\obj\Debug\net6.0\capaDatos.csproj.CoreCompileInputs.cache
+C:\Users\Usuario\Pictures\PROYECTOS\BackEnd\proyectoFinales\Gestion-InventarioADO.NET\capaDatos\obj\Debug\net6.0\capaDatos.csproj.CopyComplete
+C:\Users\Usuario\Pictures\PROYECTOS\BackEnd\proyectoFinales\Gestion-InventarioADO.NET\capaDatos\obj\Debug\net6.0\capaDatos.dll
+C:\Users\Usuario\Pictures\PROYECTOS\BackEnd\proyectoFinales\Gestion-InventarioADO.NET\capaDatos\obj\Debug\net6.0\refint\capaDatos.dll
+C:\Users\Usuario\Pictures\PROYECTOS\BackEnd\proyectoFinales\Gestion-InventarioADO.NET\capaDatos\obj\Debug\net6.0\capaDatos.pdb
+C:\Users\Usuario\Pictures\PROYECTOS\BackEnd\proyectoFinales\Gestion-InventarioADO.NET\capaDatos\obj\Debug\net6.0\ref\capaDatos.dll

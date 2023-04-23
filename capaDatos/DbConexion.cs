@@ -7,9 +7,9 @@ namespace capaDatos
     public class DbConexion
     {
         private static DbConexion _dbInstace = null;
-        private SqlConnection _connection;
+        public SqlConnection _connection;
 
-        public DbConexion()
+        private DbConexion()
         {
 
         }
