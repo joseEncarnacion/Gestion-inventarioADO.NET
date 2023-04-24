@@ -102,13 +102,30 @@
             this.dataGridViewImageColumn4 = new System.Windows.Forms.DataGridViewImageColumn();
             this.panel1LoginADM = new System.Windows.Forms.Panel();
             this.panelLoginGeneral = new System.Windows.Forms.Panel();
-            this.panelVERGeneral = new System.Windows.Forms.Panel();
+            this.panelVERGeneralNUveo = new System.Windows.Forms.Panel();
+            this.panelPrincipal2 = new System.Windows.Forms.Panel();
+            this.label38 = new System.Windows.Forms.Label();
+            this.btnEmpleado = new System.Windows.Forms.Button();
+            this.btnAdmin = new System.Windows.Forms.Button();
+            this.btnSesionGeneral = new System.Windows.Forms.Button();
             this.btnGrealVentasRegistrar = new System.Windows.Forms.Button();
             this.btnGrealrepVentas = new System.Windows.Forms.Button();
             this.btnGrealProductos = new System.Windows.Forms.Button();
             this.label31 = new System.Windows.Forms.Label();
             this.label30 = new System.Windows.Forms.Label();
             this.panelVerProductoGeneral = new System.Windows.Forms.Panel();
+            this.panel1verventasgenral = new System.Windows.Forms.Panel();
+            this.panelRegistrarVentasGenral = new System.Windows.Forms.Panel();
+            this.tbofecha = new System.Windows.Forms.DateTimePicker();
+            this.label37 = new System.Windows.Forms.Label();
+            this.label36 = new System.Windows.Forms.Label();
+            this.label35 = new System.Windows.Forms.Label();
+            this.btnRegistrar = new System.Windows.Forms.Button();
+            this.tboxCantiadadGenral = new System.Windows.Forms.TextBox();
+            this.tboxcodeGenral = new System.Windows.Forms.TextBox();
+            this.label34 = new System.Windows.Forms.Label();
+            this.label33 = new System.Windows.Forms.Label();
+            this.dataGridVentasGeneral = new System.Windows.Forms.DataGridView();
             this.label32 = new System.Windows.Forms.Label();
             this.dataGridVerProd = new System.Windows.Forms.DataGridView();
             this.btnINGGeneral = new System.Windows.Forms.Button();
@@ -117,6 +134,7 @@
             this.label28 = new System.Windows.Forms.Label();
             this.tboxpassGenral = new System.Windows.Forms.TextBox();
             this.tboxUsuarioGenral = new System.Windows.Forms.TextBox();
+            this.btnIRadm = new System.Windows.Forms.Button();
             this.label29 = new System.Windows.Forms.Label();
             this.BtnEntrarADMIN = new System.Windows.Forms.Button();
             this.label25 = new System.Windows.Forms.Label();
@@ -124,19 +142,8 @@
             this.label23 = new System.Windows.Forms.Label();
             this.textBoxClaveADM = new System.Windows.Forms.TextBox();
             this.textBoxUusarioADM = new System.Windows.Forms.TextBox();
+            this.btnIrGeneral = new System.Windows.Forms.Button();
             this.label22 = new System.Windows.Forms.Label();
-            this.panel1verventasgenral = new System.Windows.Forms.Panel();
-            this.label33 = new System.Windows.Forms.Label();
-            this.dataGridVentasGeneral = new System.Windows.Forms.DataGridView();
-            this.panelRegistrarVentasGenral = new System.Windows.Forms.Panel();
-            this.label34 = new System.Windows.Forms.Label();
-            this.tboxcodeGenral = new System.Windows.Forms.TextBox();
-            this.tboxCantiadadGenral = new System.Windows.Forms.TextBox();
-            this.btnRegistrar = new System.Windows.Forms.Button();
-            this.label35 = new System.Windows.Forms.Label();
-            this.label36 = new System.Windows.Forms.Label();
-            this.label37 = new System.Windows.Forms.Label();
-            this.tbofecha = new System.Windows.Forms.DateTimePicker();
             ((System.ComponentModel.ISupportInitialize)(this.dtGridProd)).BeginInit();
             this.panelProdList.SuspendLayout();
             this.panelCrearProducto.SuspendLayout();
@@ -150,12 +157,13 @@
             ((System.ComponentModel.ISupportInitialize)(this.dtGridSalidas)).BeginInit();
             this.panel1LoginADM.SuspendLayout();
             this.panelLoginGeneral.SuspendLayout();
-            this.panelVERGeneral.SuspendLayout();
+            this.panelVERGeneralNUveo.SuspendLayout();
+            this.panelPrincipal2.SuspendLayout();
             this.panelVerProductoGeneral.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridVerProd)).BeginInit();
             this.panel1verventasgenral.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridVentasGeneral)).BeginInit();
             this.panelRegistrarVentasGenral.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridVentasGeneral)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridVerProd)).BeginInit();
             this.SuspendLayout();
             // 
             // label1
@@ -936,6 +944,7 @@
             this.panel1LoginADM.Controls.Add(this.label23);
             this.panel1LoginADM.Controls.Add(this.textBoxClaveADM);
             this.panel1LoginADM.Controls.Add(this.textBoxUusarioADM);
+            this.panel1LoginADM.Controls.Add(this.btnIrGeneral);
             this.panel1LoginADM.Controls.Add(this.label22);
             this.panel1LoginADM.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel1LoginADM.Location = new System.Drawing.Point(0, 0);
@@ -946,34 +955,98 @@
             // 
             // panelLoginGeneral
             // 
-            this.panelLoginGeneral.Controls.Add(this.panelVERGeneral);
+            this.panelLoginGeneral.Controls.Add(this.panelVERGeneralNUveo);
             this.panelLoginGeneral.Controls.Add(this.btnINGGeneral);
             this.panelLoginGeneral.Controls.Add(this.label26);
             this.panelLoginGeneral.Controls.Add(this.label27);
             this.panelLoginGeneral.Controls.Add(this.label28);
             this.panelLoginGeneral.Controls.Add(this.tboxpassGenral);
             this.panelLoginGeneral.Controls.Add(this.tboxUsuarioGenral);
+            this.panelLoginGeneral.Controls.Add(this.btnIRadm);
             this.panelLoginGeneral.Controls.Add(this.label29);
-            this.panelLoginGeneral.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panelLoginGeneral.Location = new System.Drawing.Point(0, 0);
+            this.panelLoginGeneral.Location = new System.Drawing.Point(3, 0);
             this.panelLoginGeneral.Name = "panelLoginGeneral";
-            this.panelLoginGeneral.Size = new System.Drawing.Size(1283, 842);
+            this.panelLoginGeneral.Size = new System.Drawing.Size(1280, 842);
             this.panelLoginGeneral.TabIndex = 7;
             this.panelLoginGeneral.Visible = false;
             // 
-            // panelVERGeneral
+            // panelVERGeneralNUveo
             // 
-            this.panelVERGeneral.Controls.Add(this.btnGrealVentasRegistrar);
-            this.panelVERGeneral.Controls.Add(this.btnGrealrepVentas);
-            this.panelVERGeneral.Controls.Add(this.btnGrealProductos);
-            this.panelVERGeneral.Controls.Add(this.label31);
-            this.panelVERGeneral.Controls.Add(this.label30);
-            this.panelVERGeneral.Controls.Add(this.panelVerProductoGeneral);
-            this.panelVERGeneral.Location = new System.Drawing.Point(114, 173);
-            this.panelVERGeneral.Name = "panelVERGeneral";
-            this.panelVERGeneral.Size = new System.Drawing.Size(1283, 842);
-            this.panelVERGeneral.TabIndex = 14;
-            this.panelVERGeneral.Visible = false;
+            this.panelVERGeneralNUveo.Controls.Add(this.panelPrincipal2);
+            this.panelVERGeneralNUveo.Controls.Add(this.btnSesionGeneral);
+            this.panelVERGeneralNUveo.Controls.Add(this.btnGrealVentasRegistrar);
+            this.panelVERGeneralNUveo.Controls.Add(this.btnGrealrepVentas);
+            this.panelVERGeneralNUveo.Controls.Add(this.btnGrealProductos);
+            this.panelVERGeneralNUveo.Controls.Add(this.label31);
+            this.panelVERGeneralNUveo.Controls.Add(this.label30);
+            this.panelVERGeneralNUveo.Controls.Add(this.panelVerProductoGeneral);
+            this.panelVERGeneralNUveo.Location = new System.Drawing.Point(-3, -4);
+            this.panelVERGeneralNUveo.Name = "panelVERGeneralNUveo";
+            this.panelVERGeneralNUveo.Size = new System.Drawing.Size(1286, 846);
+            this.panelVERGeneralNUveo.TabIndex = 14;
+            this.panelVERGeneralNUveo.Visible = false;
+            // 
+            // panelPrincipal2
+            // 
+            this.panelPrincipal2.BackColor = System.Drawing.Color.MidnightBlue;
+            this.panelPrincipal2.Controls.Add(this.label38);
+            this.panelPrincipal2.Controls.Add(this.btnEmpleado);
+            this.panelPrincipal2.Controls.Add(this.btnAdmin);
+            this.panelPrincipal2.Location = new System.Drawing.Point(-5, -27);
+            this.panelPrincipal2.Name = "panelPrincipal2";
+            this.panelPrincipal2.Size = new System.Drawing.Size(1436, 976);
+            this.panelPrincipal2.TabIndex = 9;
+            this.panelPrincipal2.Visible = false;
+            this.panelPrincipal2.Paint += new System.Windows.Forms.PaintEventHandler(this.panelPrincipal_Paint);
+            // 
+            // label38
+            // 
+            this.label38.AutoSize = true;
+            this.label38.Font = new System.Drawing.Font("Segoe UI", 17F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label38.ForeColor = System.Drawing.Color.White;
+            this.label38.Location = new System.Drawing.Point(325, 210);
+            this.label38.Name = "label38";
+            this.label38.Size = new System.Drawing.Size(621, 40);
+            this.label38.TabIndex = 2;
+            this.label38.Text = "Ingresar como Administador o como Empleado";
+            // 
+            // btnEmpleado
+            // 
+            this.btnEmpleado.BackColor = System.Drawing.Color.Plum;
+            this.btnEmpleado.Font = new System.Drawing.Font("Segoe UI", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.btnEmpleado.Location = new System.Drawing.Point(681, 316);
+            this.btnEmpleado.Name = "btnEmpleado";
+            this.btnEmpleado.Size = new System.Drawing.Size(286, 65);
+            this.btnEmpleado.TabIndex = 1;
+            this.btnEmpleado.Text = "Empleados";
+            this.btnEmpleado.UseVisualStyleBackColor = false;
+            this.btnEmpleado.Click += new System.EventHandler(this.btnEmpleado_Click_1);
+            // 
+            // btnAdmin
+            // 
+            this.btnAdmin.BackColor = System.Drawing.Color.RoyalBlue;
+            this.btnAdmin.Font = new System.Drawing.Font("Segoe UI", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.btnAdmin.ForeColor = System.Drawing.Color.White;
+            this.btnAdmin.Location = new System.Drawing.Point(325, 316);
+            this.btnAdmin.Name = "btnAdmin";
+            this.btnAdmin.Size = new System.Drawing.Size(286, 65);
+            this.btnAdmin.TabIndex = 0;
+            this.btnAdmin.Text = "Administradores";
+            this.btnAdmin.UseVisualStyleBackColor = false;
+            this.btnAdmin.Click += new System.EventHandler(this.btnAdmin_Click_1);
+            // 
+            // btnSesionGeneral
+            // 
+            this.btnSesionGeneral.BackColor = System.Drawing.Color.Crimson;
+            this.btnSesionGeneral.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.btnSesionGeneral.ForeColor = System.Drawing.Color.White;
+            this.btnSesionGeneral.Location = new System.Drawing.Point(1029, 30);
+            this.btnSesionGeneral.Name = "btnSesionGeneral";
+            this.btnSesionGeneral.Size = new System.Drawing.Size(216, 43);
+            this.btnSesionGeneral.TabIndex = 8;
+            this.btnSesionGeneral.Text = "Cerrar sesion";
+            this.btnSesionGeneral.UseVisualStyleBackColor = false;
+            this.btnSesionGeneral.Click += new System.EventHandler(this.btnSesionGeneral_Click);
             // 
             // btnGrealVentasRegistrar
             // 
@@ -1016,7 +1089,7 @@
             // label30
             // 
             this.label30.BackColor = System.Drawing.Color.AliceBlue;
-            this.label30.Location = new System.Drawing.Point(282, -4);
+            this.label30.Location = new System.Drawing.Point(284, -56);
             this.label30.Name = "label30";
             this.label30.Size = new System.Drawing.Size(1016, 151);
             this.label30.TabIndex = 7;
@@ -1032,6 +1105,123 @@
             this.panelVerProductoGeneral.TabIndex = 6;
             this.panelVerProductoGeneral.Visible = false;
             this.panelVerProductoGeneral.Paint += new System.Windows.Forms.PaintEventHandler(this.panelVerProductoGeneral_Paint);
+            // 
+            // panel1verventasgenral
+            // 
+            this.panel1verventasgenral.Controls.Add(this.panelRegistrarVentasGenral);
+            this.panel1verventasgenral.Controls.Add(this.label33);
+            this.panel1verventasgenral.Controls.Add(this.dataGridVentasGeneral);
+            this.panel1verventasgenral.Location = new System.Drawing.Point(3, 9);
+            this.panel1verventasgenral.Name = "panel1verventasgenral";
+            this.panel1verventasgenral.Size = new System.Drawing.Size(934, 658);
+            this.panel1verventasgenral.TabIndex = 4;
+            this.panel1verventasgenral.Visible = false;
+            // 
+            // panelRegistrarVentasGenral
+            // 
+            this.panelRegistrarVentasGenral.Controls.Add(this.tbofecha);
+            this.panelRegistrarVentasGenral.Controls.Add(this.label37);
+            this.panelRegistrarVentasGenral.Controls.Add(this.label36);
+            this.panelRegistrarVentasGenral.Controls.Add(this.label35);
+            this.panelRegistrarVentasGenral.Controls.Add(this.btnRegistrar);
+            this.panelRegistrarVentasGenral.Controls.Add(this.tboxCantiadadGenral);
+            this.panelRegistrarVentasGenral.Controls.Add(this.tboxcodeGenral);
+            this.panelRegistrarVentasGenral.Controls.Add(this.label34);
+            this.panelRegistrarVentasGenral.Location = new System.Drawing.Point(3, 0);
+            this.panelRegistrarVentasGenral.Name = "panelRegistrarVentasGenral";
+            this.panelRegistrarVentasGenral.Size = new System.Drawing.Size(922, 664);
+            this.panelRegistrarVentasGenral.TabIndex = 6;
+            this.panelRegistrarVentasGenral.Visible = false;
+            // 
+            // tbofecha
+            // 
+            this.tbofecha.Location = new System.Drawing.Point(423, 384);
+            this.tbofecha.Name = "tbofecha";
+            this.tbofecha.Size = new System.Drawing.Size(283, 27);
+            this.tbofecha.TabIndex = 12;
+            // 
+            // label37
+            // 
+            this.label37.AutoSize = true;
+            this.label37.BackColor = System.Drawing.Color.LightBlue;
+            this.label37.Location = new System.Drawing.Point(264, 391);
+            this.label37.Name = "label37";
+            this.label37.Size = new System.Drawing.Size(47, 20);
+            this.label37.TabIndex = 11;
+            this.label37.Text = "Fecha";
+            // 
+            // label36
+            // 
+            this.label36.AutoSize = true;
+            this.label36.BackColor = System.Drawing.Color.LightBlue;
+            this.label36.Location = new System.Drawing.Point(264, 324);
+            this.label36.Name = "label36";
+            this.label36.Size = new System.Drawing.Size(152, 20);
+            this.label36.TabIndex = 10;
+            this.label36.Text = "Cantidad de Articulos";
+            // 
+            // label35
+            // 
+            this.label35.AutoSize = true;
+            this.label35.BackColor = System.Drawing.Color.LightBlue;
+            this.label35.Location = new System.Drawing.Point(264, 265);
+            this.label35.Name = "label35";
+            this.label35.Size = new System.Drawing.Size(122, 20);
+            this.label35.TabIndex = 9;
+            this.label35.Text = "Codigo Producto";
+            // 
+            // btnRegistrar
+            // 
+            this.btnRegistrar.Location = new System.Drawing.Point(296, 528);
+            this.btnRegistrar.Name = "btnRegistrar";
+            this.btnRegistrar.Size = new System.Drawing.Size(166, 49);
+            this.btnRegistrar.TabIndex = 8;
+            this.btnRegistrar.Text = "Registrar";
+            this.btnRegistrar.UseVisualStyleBackColor = true;
+            this.btnRegistrar.Click += new System.EventHandler(this.btnRegistrar_Click);
+            // 
+            // tboxCantiadadGenral
+            // 
+            this.tboxCantiadadGenral.Location = new System.Drawing.Point(423, 324);
+            this.tboxCantiadadGenral.Name = "tboxCantiadadGenral";
+            this.tboxCantiadadGenral.Size = new System.Drawing.Size(283, 27);
+            this.tboxCantiadadGenral.TabIndex = 2;
+            // 
+            // tboxcodeGenral
+            // 
+            this.tboxcodeGenral.Location = new System.Drawing.Point(423, 261);
+            this.tboxcodeGenral.Name = "tboxcodeGenral";
+            this.tboxcodeGenral.Size = new System.Drawing.Size(283, 27);
+            this.tboxcodeGenral.TabIndex = 1;
+            // 
+            // label34
+            // 
+            this.label34.BackColor = System.Drawing.Color.Thistle;
+            this.label34.Location = new System.Drawing.Point(211, 79);
+            this.label34.Name = "label34";
+            this.label34.Size = new System.Drawing.Size(529, 552);
+            this.label34.TabIndex = 0;
+            // 
+            // label33
+            // 
+            this.label33.AutoSize = true;
+            this.label33.Font = new System.Drawing.Font("Segoe UI", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label33.ForeColor = System.Drawing.SystemColors.Control;
+            this.label33.Location = new System.Drawing.Point(307, 45);
+            this.label33.Name = "label33";
+            this.label33.Size = new System.Drawing.Size(270, 37);
+            this.label33.TabIndex = 5;
+            this.label33.Text = "Ver Listado de Ventas";
+            // 
+            // dataGridVentasGeneral
+            // 
+            this.dataGridVentasGeneral.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataGridVentasGeneral.Location = new System.Drawing.Point(80, 126);
+            this.dataGridVentasGeneral.Name = "dataGridVentasGeneral";
+            this.dataGridVentasGeneral.RowHeadersWidth = 51;
+            this.dataGridVentasGeneral.RowTemplate.Height = 29;
+            this.dataGridVentasGeneral.Size = new System.Drawing.Size(769, 487);
+            this.dataGridVentasGeneral.TabIndex = 4;
             // 
             // label32
             // 
@@ -1113,12 +1303,24 @@
             this.tboxUsuarioGenral.Size = new System.Drawing.Size(247, 27);
             this.tboxUsuarioGenral.TabIndex = 8;
             // 
+            // btnIRadm
+            // 
+            this.btnIRadm.BackColor = System.Drawing.Color.CornflowerBlue;
+            this.btnIRadm.Font = new System.Drawing.Font("Segoe UI", 11F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.btnIRadm.Location = new System.Drawing.Point(500, 556);
+            this.btnIRadm.Name = "btnIRadm";
+            this.btnIRadm.Size = new System.Drawing.Size(247, 43);
+            this.btnIRadm.TabIndex = 22;
+            this.btnIRadm.Text = "Ir a Administrador";
+            this.btnIRadm.UseVisualStyleBackColor = false;
+            this.btnIRadm.Click += new System.EventHandler(this.btnIRadm_Click_1);
+            // 
             // label29
             // 
             this.label29.BackColor = System.Drawing.Color.DeepSkyBlue;
             this.label29.Location = new System.Drawing.Point(343, 172);
             this.label29.Name = "label29";
-            this.label29.Size = new System.Drawing.Size(597, 498);
+            this.label29.Size = new System.Drawing.Size(597, 506);
             this.label29.TabIndex = 7;
             // 
             // BtnEntrarADMIN
@@ -1180,6 +1382,18 @@
             this.textBoxUusarioADM.Size = new System.Drawing.Size(247, 27);
             this.textBoxUusarioADM.TabIndex = 1;
             // 
+            // btnIrGeneral
+            // 
+            this.btnIrGeneral.BackColor = System.Drawing.Color.CornflowerBlue;
+            this.btnIrGeneral.Font = new System.Drawing.Font("Segoe UI", 11F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.btnIrGeneral.Location = new System.Drawing.Point(470, 560);
+            this.btnIrGeneral.Name = "btnIrGeneral";
+            this.btnIrGeneral.Size = new System.Drawing.Size(247, 43);
+            this.btnIrGeneral.TabIndex = 22;
+            this.btnIrGeneral.Text = "Ir a General ";
+            this.btnIrGeneral.UseVisualStyleBackColor = false;
+            this.btnIrGeneral.Click += new System.EventHandler(this.btnIrGeneral_Click_1);
+            // 
             // label22
             // 
             this.label22.BackColor = System.Drawing.Color.DeepSkyBlue;
@@ -1187,123 +1401,6 @@
             this.label22.Name = "label22";
             this.label22.Size = new System.Drawing.Size(597, 498);
             this.label22.TabIndex = 0;
-            // 
-            // panel1verventasgenral
-            // 
-            this.panel1verventasgenral.Controls.Add(this.panelRegistrarVentasGenral);
-            this.panel1verventasgenral.Controls.Add(this.label33);
-            this.panel1verventasgenral.Controls.Add(this.dataGridVentasGeneral);
-            this.panel1verventasgenral.Location = new System.Drawing.Point(3, 9);
-            this.panel1verventasgenral.Name = "panel1verventasgenral";
-            this.panel1verventasgenral.Size = new System.Drawing.Size(934, 658);
-            this.panel1verventasgenral.TabIndex = 4;
-            this.panel1verventasgenral.Visible = false;
-            // 
-            // label33
-            // 
-            this.label33.AutoSize = true;
-            this.label33.Font = new System.Drawing.Font("Segoe UI", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label33.ForeColor = System.Drawing.SystemColors.Control;
-            this.label33.Location = new System.Drawing.Point(307, 45);
-            this.label33.Name = "label33";
-            this.label33.Size = new System.Drawing.Size(270, 37);
-            this.label33.TabIndex = 5;
-            this.label33.Text = "Ver Listado de Ventas";
-            // 
-            // dataGridVentasGeneral
-            // 
-            this.dataGridVentasGeneral.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridVentasGeneral.Location = new System.Drawing.Point(80, 126);
-            this.dataGridVentasGeneral.Name = "dataGridVentasGeneral";
-            this.dataGridVentasGeneral.RowHeadersWidth = 51;
-            this.dataGridVentasGeneral.RowTemplate.Height = 29;
-            this.dataGridVentasGeneral.Size = new System.Drawing.Size(769, 487);
-            this.dataGridVentasGeneral.TabIndex = 4;
-            // 
-            // panelRegistrarVentasGenral
-            // 
-            this.panelRegistrarVentasGenral.Controls.Add(this.tbofecha);
-            this.panelRegistrarVentasGenral.Controls.Add(this.label37);
-            this.panelRegistrarVentasGenral.Controls.Add(this.label36);
-            this.panelRegistrarVentasGenral.Controls.Add(this.label35);
-            this.panelRegistrarVentasGenral.Controls.Add(this.btnRegistrar);
-            this.panelRegistrarVentasGenral.Controls.Add(this.tboxCantiadadGenral);
-            this.panelRegistrarVentasGenral.Controls.Add(this.tboxcodeGenral);
-            this.panelRegistrarVentasGenral.Controls.Add(this.label34);
-            this.panelRegistrarVentasGenral.Location = new System.Drawing.Point(3, 0);
-            this.panelRegistrarVentasGenral.Name = "panelRegistrarVentasGenral";
-            this.panelRegistrarVentasGenral.Size = new System.Drawing.Size(922, 664);
-            this.panelRegistrarVentasGenral.TabIndex = 6;
-            this.panelRegistrarVentasGenral.Visible = false;
-            // 
-            // label34
-            // 
-            this.label34.BackColor = System.Drawing.Color.Thistle;
-            this.label34.Location = new System.Drawing.Point(211, 79);
-            this.label34.Name = "label34";
-            this.label34.Size = new System.Drawing.Size(529, 552);
-            this.label34.TabIndex = 0;
-            // 
-            // tboxcodeGenral
-            // 
-            this.tboxcodeGenral.Location = new System.Drawing.Point(423, 261);
-            this.tboxcodeGenral.Name = "tboxcodeGenral";
-            this.tboxcodeGenral.Size = new System.Drawing.Size(283, 27);
-            this.tboxcodeGenral.TabIndex = 1;
-            // 
-            // tboxCantiadadGenral
-            // 
-            this.tboxCantiadadGenral.Location = new System.Drawing.Point(423, 324);
-            this.tboxCantiadadGenral.Name = "tboxCantiadadGenral";
-            this.tboxCantiadadGenral.Size = new System.Drawing.Size(283, 27);
-            this.tboxCantiadadGenral.TabIndex = 2;
-            // 
-            // btnRegistrar
-            // 
-            this.btnRegistrar.Location = new System.Drawing.Point(296, 528);
-            this.btnRegistrar.Name = "btnRegistrar";
-            this.btnRegistrar.Size = new System.Drawing.Size(166, 49);
-            this.btnRegistrar.TabIndex = 8;
-            this.btnRegistrar.Text = "Registrar";
-            this.btnRegistrar.UseVisualStyleBackColor = true;
-            this.btnRegistrar.Click += new System.EventHandler(this.btnRegistrar_Click);
-            // 
-            // label35
-            // 
-            this.label35.AutoSize = true;
-            this.label35.BackColor = System.Drawing.Color.LightBlue;
-            this.label35.Location = new System.Drawing.Point(264, 265);
-            this.label35.Name = "label35";
-            this.label35.Size = new System.Drawing.Size(122, 20);
-            this.label35.TabIndex = 9;
-            this.label35.Text = "Codigo Producto";
-            // 
-            // label36
-            // 
-            this.label36.AutoSize = true;
-            this.label36.BackColor = System.Drawing.Color.LightBlue;
-            this.label36.Location = new System.Drawing.Point(264, 324);
-            this.label36.Name = "label36";
-            this.label36.Size = new System.Drawing.Size(152, 20);
-            this.label36.TabIndex = 10;
-            this.label36.Text = "Cantidad de Articulos";
-            // 
-            // label37
-            // 
-            this.label37.AutoSize = true;
-            this.label37.BackColor = System.Drawing.Color.LightBlue;
-            this.label37.Location = new System.Drawing.Point(264, 391);
-            this.label37.Name = "label37";
-            this.label37.Size = new System.Drawing.Size(47, 20);
-            this.label37.TabIndex = 11;
-            this.label37.Text = "Fecha";
-            // 
-            // tbofecha
-            // 
-            this.tbofecha.Location = new System.Drawing.Point(423, 384);
-            this.tbofecha.Name = "tbofecha";
-            this.tbofecha.Size = new System.Drawing.Size(283, 27);
-            this.tbofecha.TabIndex = 12;
             // 
             // pantalla1
             // 
@@ -1349,15 +1446,17 @@
             this.panel1LoginADM.PerformLayout();
             this.panelLoginGeneral.ResumeLayout(false);
             this.panelLoginGeneral.PerformLayout();
-            this.panelVERGeneral.ResumeLayout(false);
+            this.panelVERGeneralNUveo.ResumeLayout(false);
+            this.panelPrincipal2.ResumeLayout(false);
+            this.panelPrincipal2.PerformLayout();
             this.panelVerProductoGeneral.ResumeLayout(false);
             this.panelVerProductoGeneral.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridVerProd)).EndInit();
             this.panel1verventasgenral.ResumeLayout(false);
             this.panel1verventasgenral.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridVentasGeneral)).EndInit();
             this.panelRegistrarVentasGenral.ResumeLayout(false);
             this.panelRegistrarVentasGenral.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridVentasGeneral)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridVerProd)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -1451,7 +1550,7 @@
         private TextBox tboxpassGenral;
         private TextBox tboxUsuarioGenral;
         private Label label29;
-        private Panel panelVERGeneral;
+        private Panel panelVERGeneralNUveo;
         private Button btnGrealrepVentas;
         private Button btnGrealProductos;
         private Label label31;
@@ -1472,5 +1571,12 @@
         private Label label34;
         private Label label33;
         private DataGridView dataGridVentasGeneral;
+        private Button btnSesionGeneral;
+        private Panel panelPrincipal2;
+        private Label label38;
+        private Button btnEmpleado;
+        private Button btnAdmin;
+        private Button btnIRadm;
+        private Button btnIrGeneral;
     }
 }
