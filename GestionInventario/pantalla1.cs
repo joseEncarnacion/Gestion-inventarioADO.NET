@@ -22,7 +22,145 @@ namespace GestionInventario
 
         //Entrada
         CNsalidadVentas salidasNeg =new CNsalidadVentas();
-        CEsalidadVentas salidaE = new CEsalidadVentas();    
+        CEsalidadVentas salidaE = new CEsalidadVentas();
+
+        //Login Admin
+        CNusuario usuarioNeg = new CNusuario();
+        CEUsuario UsuarioEntidad = new CEUsuario();
+
+        //login usuario general 
+        CNUsuarioGeneral usuariogENERALNeg = new CNUsuarioGeneral();
+        CEUsuarioGeneral usuariogENERALEN = new CEUsuarioGeneral();
+
+        //loginUusario
+
+        private void LimpiarInputLogin()
+        {
+            textBoxUusarioADM.Text = "";
+            textBoxClaveADM.Text = "";
+
+            tboxpassGenral.Text = "";
+            tboxUsuarioGenral.Text = "";
+        }
+
+        //usuario general
+
+        public void loginUserGeneral()
+        {
+            bool respuesta;
+            DataTable dt;
+            string userAuth;
+            string passAuth;
+
+            usuariogENERALEN.UsuarioE = tboxUsuarioGenral.Text;
+            usuariogENERALEN.passE = tboxpassGenral.Text;
+
+            respuesta = usuariogENERALNeg.validarUsuario(usuariogENERALEN);
+
+            if (respuesta == false)
+            {
+
+                return;
+            }
+
+            dt = usuariogENERALNeg.NEBuscarUsuario(usuariogENERALEN);
+
+            //dataGridView1.DataSource = dt;
+
+            if (dt.Rows.Count == 0)
+            {
+                MessageBox.Show("ususario no existe");
+                tboxpassGenral.Text = string.Empty;
+                return;
+
+            }
+            else
+            {
+                userAuth = dt.Rows[0]["usuarioADM"].ToString();
+                passAuth = dt.Rows[0]["passADM"].ToString();
+
+                if (tboxUsuarioGenral.Text == userAuth && tboxpassGenral.Text == passAuth)
+                {
+
+                    //mostrar pantallas
+                    panelPrincipal2.Visible = false;
+                    panel1LoginADM.Visible = false;
+                    panelLoginGeneral.Visible = false;
+                    panelProdList.Visible = false;
+                    panelVERGeneralNUveo.Visible = false;
+
+                    LimpiarInputLogin();
+
+                }
+
+            }
+
+
+
+
+        }
+
+
+
+        //fin usuario general
+
+        //usuario admin
+        public void loginAdm()
+        {
+            bool respuesta;
+            DataTable dt;
+            string userAuth;
+            string passAuth;
+
+            UsuarioEntidad.UsuarioE = textBoxUusarioADM.Text;
+            UsuarioEntidad.passE = textBoxClaveADM.Text;
+
+            respuesta = usuarioNeg.validarUsuario(UsuarioEntidad);
+
+            if (respuesta == false)
+            {
+
+                return;
+            }
+
+            dt = usuarioNeg.NEBuscarUsuario(UsuarioEntidad);
+
+            //dataGridView1.DataSource = dt;
+
+            if (dt.Rows.Count == 0)
+            {
+                MessageBox.Show("ususario no existe");
+                textBoxClaveADM.Text = string.Empty;
+                return;
+
+            }
+            else
+            {
+                userAuth = dt.Rows[0]["usuarioADM"].ToString();
+                passAuth = dt.Rows[0]["passADM"].ToString();
+
+                if (textBoxUusarioADM.Text == userAuth && textBoxClaveADM.Text == passAuth)
+                {
+
+                    //mostrar pantallas
+                    panelPrincipal2.Visible = false;
+                    panel1LoginADM.Visible = false;
+                    panelLoginGeneral.Visible = false;
+                    panelProdList.Visible = true;
+
+                    LimpiarInputLogin();
+
+                }
+
+            }
+
+
+
+
+        }
+
+
+        //Fing loginUusario
 
 
         bool existe;
@@ -194,6 +332,14 @@ namespace GestionInventario
             Listarproducto();
             ListarEntrada();
             ListarSalidas();
+           
+            panelVERGeneralNUveo.Visible = false;
+            panel1LoginADM.Visible = true;
+            panelLoginGeneral.Visible = true;
+            panelPrincipal2.Visible = false;
+            panelPrincipal2.Visible = true;
+
+            
         }
 
         private void btnAddProd_Click(object sender, EventArgs e)
@@ -249,6 +395,9 @@ namespace GestionInventario
         private void btnCerrarSesion_Click(object sender, EventArgs e)
         {
             //cerrar sesion admin
+            
+            panel1LoginADM.Visible = true; 
+            panelPrincipal2.Visible = true;
         }
 
         private void dtGridProd_CellContentClick(object sender, DataGridViewCellEventArgs e)
@@ -394,12 +543,12 @@ namespace GestionInventario
 
         private void BtnEntrarADMIN_Click(object sender, EventArgs e)
         {
-
+            loginAdm();
         }
 
         private void btnINGGeneral_Click(object sender, EventArgs e)
         {
-
+            loginUserGeneral();
         }
 
         private void panelVerProductoGeneral_Paint(object sender, PaintEventArgs e)
@@ -425,6 +574,76 @@ namespace GestionInventario
         private void btnGrealVentasRegistrar_Click(object sender, EventArgs e)
         {
 
+        }
+
+        private void btnAdmin_Click(object sender, EventArgs e)
+        {
+            //adm
+
+           // if (panelVERGeneral.Visible) { panelVERGeneral.Visible = false; }
+
+            panelPrincipal2.Visible = false;
+            panel1LoginADM.Visible = false;
+            panelLoginGeneral.Visible = false;
+            panel1LoginADM.Visible=true;
+        }
+
+        private void btnEmpleado_Click(object sender, EventArgs e)
+        {
+           //Emp
+           panelPrincipal2.Visible=false;
+
+           panelVERGeneralNUveo.Visible=true;
+        }
+
+        private void btnSesionGeneral_Click(object sender, EventArgs e)
+        {
+            //cerrar la sesion en general
+            
+            panelPrincipal2.Visible=true;
+        }
+
+        private void btnIRadm_Click(object sender, EventArgs e)
+        {
+            panelLoginGeneral.Visible=false;
+            panel1LoginADM.Visible = true;
+        }
+
+        private void btnIrGeneral_Click(object sender, EventArgs e)
+        {
+            panel1LoginADM.Visible = false;
+            panelLoginGeneral.Visible = true;
+        }
+
+        private void btnAdmin_Click_1(object sender, EventArgs e)
+        {
+
+        }
+
+        private void panelPrincipal_Paint(object sender, PaintEventArgs e)
+        {
+            panelPrincipal2.Visible = false;
+            panel1LoginADM.Visible = false;
+            panelLoginGeneral.Visible = false;
+            panel1LoginADM.Visible = true;
+        }
+
+        private void btnEmpleado_Click_1(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnIRadm_Click_1(object sender, EventArgs e)
+        {
+            panelLoginGeneral.Visible = false;
+            panel1LoginADM.Visible = true;
+        }
+
+        private void btnIrGeneral_Click_1(object sender, EventArgs e)
+        {
+
+            panel1LoginADM.Visible = false;
+            panelLoginGeneral.Visible = true;
         }
     }
 }
